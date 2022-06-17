@@ -1,0 +1,9 @@
+https://login.microsoftonline.com/organizations/oauth2/v2.0/authorizeHOST="portal.azure.com"
+ping -c 1 $HOST
+if [ "$?" -eq "0" ]
+then
+   echo "google is reachable"
+else 
+    echo "google not reacheble "
+fi
+
